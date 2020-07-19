@@ -36,6 +36,21 @@ plugins: [
 ]
 ```
 
+You will get the following results:
+```html
+<!--
+hello world
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack App</title>
+  </head>
+  <body></body>
+</html>
+```
+
 #### Options
 
 ```js
