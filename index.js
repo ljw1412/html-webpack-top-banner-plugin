@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 class HtmlWebpackTopBannerPlugin {
   banner = ''
 
@@ -22,7 +24,7 @@ class HtmlWebpackTopBannerPlugin {
     compiler.hooks.compilation.tap(
       'HtmlWebpackTopBannerPlugin',
       (compilation, callback) => {
-        compilation.hooks.htmlWebpackPluginAfterHtmlProcessing.tap(
+        HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tap(
           'HtmlWebpackTopBannerPlugin',
           (htmlPluginData, callback) => {
             htmlPluginData.html = this.banner + htmlPluginData.html
