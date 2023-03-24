@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-top-banner-plugin",
-  "version": "1.0.4",
+  "version": "5.0.1",
   "description": "Adds a banner to the top of generated html.",
   "scripts": {
     "test": "mocha test/inject.spec.js"
@@ -12,6 +12,7 @@
   "keywords": [
     "webpack",
     "webpack4",
+    "webpack5",
     "html-webpack-plugin",
     "plugin"
   ],
@@ -25,9 +26,9 @@
     "url": "https://github.com/ljw1412/html-webpack-top-banner-plugin/issues"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "mocha": "^7.1.0",
     "rimraf": "^3.0.2",
-    "webpack": "^4.42.0"
+    "webpack": "^5.76.3"
   }
 }
