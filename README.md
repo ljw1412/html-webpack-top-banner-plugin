@@ -23,11 +23,11 @@ $ yarn add -D html-webpack-top-banner-plugin
 Install the plugin with npm:
 
 ```bash
-$ npm install -d html-webpack-top-banner-plugin@4
+$ npm install -d html-webpack-top-banner-plugin@webpack-4
 ```
 
 ```bash
-$ yarn add -D html-webpack-top-banner-plugin@4
+$ yarn add -D html-webpack-top-banner-plugin@webpack-4
 ```
 
 ### Basic Usage
